@@ -1070,7 +1070,6 @@ footer {
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 24px;
-                /* identical to box height */
                 padding: 8px 15px;
                 background: #02897A;
                 border-radius: 4px;
@@ -1334,6 +1333,7 @@ footer {
             }
 
             .client__list {
+                align-items: center;
                 margin-bottom: 100px;
                 flex-direction: column;
                 row-gap: 32px;
@@ -1378,6 +1378,19 @@ footer {
                 @include dis-item;
                 flex-direction: column;
                 row-gap: 32px;
+
+                .footer__item {
+                    display: flex;
+                    flex-direction: column;
+
+                    .footer__subtitle {
+                        text-align: center;
+                    }
+
+                    .footer__item__link {
+                        text-align: center;
+                    }
+                }
             }
 
             .footer__right {

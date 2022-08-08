@@ -953,7 +953,6 @@ footer .footer__body .footer__right .footer__btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
   padding: 8px 15px;
   background: #02897A;
   border-radius: 4px;
@@ -1143,6 +1142,7 @@ footer .footer__copy {
     max-width: 323px;
   }
   .client .client__body .client__list {
+    align-items: center;
     margin-bottom: 100px;
     flex-direction: column;
     row-gap: 32px;
@@ -1182,6 +1182,16 @@ footer .footer__copy {
     align-items: center;
     flex-direction: column;
     row-gap: 32px;
+  }
+  footer .footer__body .footer__list .footer__item {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__body .footer__list .footer__item .footer__subtitle {
+    text-align: center;
+  }
+  footer .footer__body .footer__list .footer__item .footer__item__link {
+    text-align: center;
   }
   footer .footer__body .footer__right {
     display: flex;
