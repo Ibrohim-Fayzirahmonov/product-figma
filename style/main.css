@@ -1094,7 +1094,7 @@ footer .footer__copy {
   .quick .quick__body .quick__list .quick__item__one {
     row-gap: 32px;
   }
-  .quick .quick__body .quick__item__two {
+  .quick .quick__body .quick__list .quick__item__two {
     row-gap: 32px;
     flex-direction: column-reverse;
   }
